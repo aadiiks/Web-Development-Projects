@@ -1,0 +1,136 @@
+ /* CSS RESET */
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Baloo Bhai 2", cursive;
+    background: url("../images/26a.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: white;
+  }
+
+  .left {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid red; */
+  }
+
+  .left img {
+    width: 130px;
+    margin: 4px;
+    align-items: center;
+  }
+
+  .left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+  }
+
+  .mid {
+    display: block;
+    width: 46%;
+    margin: 30px auto;
+    /** For bringing anything to center we do margin auto and divide its width eventually. */
+
+    /* border: 2px solid green; */
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 33px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+  }
+
+  .btn {
+    font-family: "Baloo Bhai 2", cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(48, 43, 43);
+  }
+
+  .container {
+    position: absolute;
+    right: 13px;
+    top: 103px;
+    border: 2px solid white;
+    /* margin: 150px; */
+    /* padding: 0px; */
+    width: 47%;
+    border-radius: 29px;
+  }
+
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    margin: 11px auto;
+    border: 2px solid green;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container button {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    border: 3px solid white;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: #a0a0a0;
+    color: inherit;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 85vh;
+    color: black;
+  }
+
+  footer span {
+    color: red;
+    font-size: 3rem;
+  }
