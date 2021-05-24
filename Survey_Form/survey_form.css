@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(0deg, rgba(0,0,255,0.4), rgba(0,0,255,0.4)), url(https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 1.5rem;
+}
+h1{
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+#description{
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 3rem;
+  font-style: oblique;
+  color: white;
+}
+.blueback {
+  height: 100%;
+  width: 60vw;
+  background-color: rgba(3, 47, 83, 0.9);
+  /* position: absolute;
+    top: 24px;
+    left: 25%; */
+  margin: 24px auto;
+  padding: 2.5rem;
+}
+
+.dev-1 label{
+  display: block;
+  margin: 15px 23px;
+}
+
+.dev-1 input{
+  margin-right: 15px;
+}
+
+.dev-2{
+  margin-bottom: 20px;
+}
+
+.form-group{
+  margin: 35px auto;
+}
+
+.white-control{
+height: 2.3rem;
+width: 100%;
+font-size: initial;
+margin-top: 10px;
+padding: 0.6rem;
+}
+#submit{
+  background: #37af65;
+  height: 3rem;
+  color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  /* padding: 0.75rem; */
+  /* display: block; */
+  /* line-height: inherit; */
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
+#comments{
+  min-height: 120px;
+  padding: 0.6rem;
+  font-size: inherit;
+  /* resize: vertical; */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  background-color: rgba(3, 47, 83, 0.9);
+  color: inherit;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+footer span{
+  color: red;
+  font-size: 3rem;
+}
